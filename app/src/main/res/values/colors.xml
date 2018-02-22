@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="cardlayout_bg">#ebf9ef</color>
+    <color name="green">#01B41F</color>
+
+    <color name="progress_bg">#50000000</color>
+    <color name="placeholder_color">#e5e5e5</color>
+    <color name="background_with_black_layer">#99000000</color>
+    <color name="transperent">#00ffffff</color>
+
+</resources>

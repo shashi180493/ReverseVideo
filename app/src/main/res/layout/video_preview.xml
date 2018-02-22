@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:rsb="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_image">
+
+    <include
+        android:id="@+id/include_actionbar"
+        layout="@layout/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_footer"
+        android:layout_below="@+id/include_actionbar">
+
+        <VideoView
+            android:id="@+id/vv_video"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal" />
+
+        <RelativeLayout
+            android:id="@+id/rl_timebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vv_video"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <io.apptik.widget.MultiSlider
+                android:id="@+id/ms_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:thumbNumber="2"
+                app:drawThumbsApart="true"
+                android:layout_marginTop="10dp"/>
+
+            <org.florescu.android.rangeseekbar.RangeSeekBar
+                android:id="@+id/rsb_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:showLabels="false"
+                rsb:activeColor="#ED1C24"
+                rsb:textAboveThumbsColor="#000000"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/tv_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ms_video"
+                android:layout_marginTop="2dp" />
+
+            <TextView
+                android:id="@+id/tv_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ms_video"
+                android:layout_marginTop="2dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <include
+            android:layout_height="50dp"
+            android:layout_width="match_parent"
+            layout="@layout/banner_ad"
+            android:layout_above="@+id/btn_extract_images"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_extract_images"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:text="Extract Images"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</RelativeLayout>

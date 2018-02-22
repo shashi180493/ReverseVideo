@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">ReverseVideo</string>
+    <string name="feedback_appname">ReverseVideo</string>
+    <string name="folder_name">ReverseVideo</string>
+    <string name="copyright">© 2018 Copyright Loopbots Technology</string>
+    <string name="menu_more_from_us"> More From Us </string>
+
+    <string name="base64"></string>
+
+    <!-- Test-->
+    <string name="banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intertial_ad">ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="capture_video">Video</string>
+    <string name="select_video">Gallery</string>
+    <string name="extracted_images">Images</string>
+
+    <string name="rate_app">Rate This App</string>
+    <string name="share">Share </string>
+    <string name="remove_ad">Remove Ads - </string>
+    <string name="feedback">Feedback</string>
+
+    <string name="no_internet_connection">Internet Connection Not Available</string>
+    <string name="version">Version</string>
+    <string name="purchased">Purchased</string>
+
+    <string name="invite_friends_share_other_message">Hi,\nCheck Out VideotoImage\nDownload Now https://play.google.com/store/apps/details?id=</string>
+    <string name="give_feedback">Please give your feedback</string>
+
+    <string name="about_us">About Us</string>
+    <string name="change_language">Change Language</string>
+
+    <string name="change_language_confirmation">Are you sure want to change Language?</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+    <string name="english">English</string>
+    <string name="japanese">Japanese</string>
+    <string name="korean">Korean</string>
+    <string name="chinesesimp">Chinese Simplified</string>
+    <string name="chinesetrad">Chinese Traditional</string>
+    <string name="german">German</string>
+    <string name="french">French</string>
+    <string name="spanish">Spanish</string>
+    <string name="italian">Italian</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="russian">Russian</string>
+    <string name="arabic">Arabic</string>
+
+    <string name="loading"> Loading... </string>
+    <string name="please_wait"> Please Wait... </string>
+    <string name="install_play_store">Google Play Store is not installed, Please install and try again!</string>
+</resources>
